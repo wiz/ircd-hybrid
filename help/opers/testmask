@@ -1,4 +1,4 @@
-# $Id: testmask,v 1.1 2005/07/14 06:44:41 metalrock Exp $
+# $Id$
 TESTMASK <user@host>
 
 Will test the given user@host mask, reporting how many local and

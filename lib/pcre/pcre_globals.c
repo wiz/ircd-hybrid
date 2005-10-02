@@ -1,4 +1,4 @@
-/* $Id: pcre_globals.c,v 1.2 2005/09/03 10:04:02 michael Exp $ */
+/* $Id$ */
 
 /*************************************************
 *      Perl-Compatible Regular Expressions       *

@@ -15,7 +15,7 @@
  *   along with this program; if not, write to the Free Software
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  *
- *   $Id: servlink.c,v 1.26 2003/05/22 05:32:56 lusky Exp $
+ *   $Id$
  */
 
 #include "stdinc.h"

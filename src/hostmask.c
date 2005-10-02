@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: hostmask.c,v 7.105 2005/09/29 06:35:41 metalrock Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

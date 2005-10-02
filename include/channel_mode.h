@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: channel_mode.h,v 7.37 2005/09/24 09:27:17 michael Exp $
+ *  $Id$
  */
 
 

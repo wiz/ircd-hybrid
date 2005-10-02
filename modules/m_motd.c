@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_motd.c,v 1.41 2005/08/15 20:50:02 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -54,7 +54,7 @@ struct Message motd_msgtab = {
 };
 
 #ifndef STATIC_MODULES
-const char *_version = "$Revision: 1.41 $";
+const char *_version = "$Revision$";
 static struct Callback *motd_cb;
 
 static void *

@@ -1,4 +1,4 @@
-# $Id: clearchan,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+# $Id$
 CLEARCHAN <channel>
 
 The CLEARCHAN command will essentially take over a channel by purging all

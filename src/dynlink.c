@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- * $Id: dynlink.c,v 7.19 2005/09/10 12:05:01 michael Exp $
+ * $Id$
  *
  */
 #include "stdinc.h"

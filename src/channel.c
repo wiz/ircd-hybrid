@@ -21,7 +21,7 @@
 
 /*! \file channel.c
  * \brief Responsible for managing channels, members, bans and topics
- * \version $Id: channel.c,v 7.459 2005/09/27 20:15:54 adx Exp $
+ * \version $Id$
  */
 
 #include "stdinc.h"

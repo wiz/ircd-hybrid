@@ -1,4 +1,4 @@
-$Id: index.txt,v 1.22 2005/09/15 01:19:46 knight Exp $
+$Id$
 -----------------------------------------------
 
 Documentation for ircd-hybrid

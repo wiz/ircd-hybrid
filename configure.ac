@@ -1,4 +1,4 @@
-dnl $Id: configure.ac,v 7.124 2005/09/20 14:59:28 adx Exp $
+dnl $Id$
 dnl Process this file with autoconf to produce a configure script.
 
 dnl TODO: clean up all the OpenSSL and shared module checking stuff;
@@ -8,7 +8,7 @@ dnl said functions need to be just about as complex as they already are.
 AC_PREREQ(2.57)
 
 dnl Sneaky way to get an Id tag into the configure script
-AC_COPYRIGHT([$Id: configure.ac,v 7.124 2005/09/20 14:59:28 adx Exp $])
+AC_COPYRIGHT([$Id$])
 
 AC_INIT([ircd-hybrid],[7.2])
 

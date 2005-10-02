@@ -1,4 +1,4 @@
-# $Id: chgname,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+# $Id$
 CHGNAME [nickname] <realname>
 
 The CHGNAME command takes two arguments. The first argument is optional and

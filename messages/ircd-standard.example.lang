@@ -1,6 +1,6 @@
 ; ircd-hybrid-7 standard message file - for reference only
 ; Copyright (C) 2003 Joshua Kwan <joshk@triplehelix.org>
-; $Id: ircd-standard.example.lang,v 1.18 2005/09/13 05:22:19 adx Exp $
+; $Id$
 
 ; Use this file as a starting point for translating everything into the
 ; language you need. This file contains all of the defined events in 

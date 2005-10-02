@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_killhost.c,v 1.22 2005/10/01 14:29:47 michael Exp $
+ *  $Id$
  *
  */
 
@@ -64,7 +64,7 @@ _moddeinit(void)
   mod_del_cmd(&killhost_msgtab);
 }
 
-const char *_version = "$Revision: 1.22 $";
+const char *_version = "$Revision$";
 #endif
 
 /* mo_killhost()

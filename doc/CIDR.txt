@@ -1,4 +1,4 @@
-$Id: CIDR.txt,v 1.5 2001/10/24 02:00:05 wcampbel Exp $
+$Id$
 
 CIDR Information
 ----------------

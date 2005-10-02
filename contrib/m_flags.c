@@ -27,7 +27,7 @@
  *  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  *  POSSIBILITY OF SUCH DAMAGE.
  *
- *  $Id: m_flags.c,v 1.21 2005/10/01 14:29:47 michael Exp $
+ *  $Id$
  */
 
 /* List of ircd includes from ../include/ */
@@ -74,7 +74,7 @@ _moddeinit(void)
   mod_del_cmd(&flags_msgtab);
 }
 
-const char *_version = "$Revision: 1.21 $";
+const char *_version = "$Revision$";
 #endif
 
 /* FLAGS requires it's own mini parser, since the last parameter in it can

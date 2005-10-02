@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: fileio.h,v 7.19 2005/09/26 02:52:52 adx Exp $
+ *  $Id$
  */
 
 #ifndef INCLUDED_fileio_h

@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_ctrace.c,v 1.13 2005/10/01 14:29:47 michael Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -51,7 +51,7 @@ struct Message ctrace_msgtab = {
 };
 
 #ifndef STATIC_MODULES
-const char *_version = "$Revision: 1.13 $";
+const char *_version = "$Revision$";
 static struct Callback *ctrace_cb;
 
 static void *

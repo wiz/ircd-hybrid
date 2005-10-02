@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_who.c,v 1.95 2005/07/16 12:19:44 michael Exp $
+ *  $Id$
  */
 #include "stdinc.h"
 #include "tools.h"
@@ -62,7 +62,7 @@ _moddeinit(void)
   mod_del_cmd(&who_msgtab);
 }
 
-const char *_version = "$Revision: 1.95 $";
+const char *_version = "$Revision$";
 #endif
 
 static void who_global(struct Client *source_p, char *mask, int server_oper);

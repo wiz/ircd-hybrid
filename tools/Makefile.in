@@ -1,4 +1,4 @@
-# $Id: Makefile.in,v 7.48 2005/07/11 23:19:38 metalrock Exp $
+# $Id$
 
 CC		= @CC@
 INSTALL		= @INSTALL@

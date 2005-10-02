@@ -21,7 +21,7 @@
 
 /*! \file balloc.h
  * \brief A block allocator
- * \version $Id: balloc.h,v 1.20 2005/07/14 20:21:43 michael Exp $
+ * \version $Id$
  * \todo Get rid of all typedefs in this file
  */
 

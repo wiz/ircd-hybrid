@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_knock.c,v 1.73 2005/07/31 05:32:36 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -84,7 +84,7 @@ _moddeinit(void)
   delete_isupport("KNOCK");
 }
 
-const char *_version = "$Revision: 1.73 $";
+const char *_version = "$Revision$";
 #endif
 
 /* m_knock

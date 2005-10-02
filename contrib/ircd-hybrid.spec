@@ -1,4 +1,4 @@
-# $Id: ircd-hybrid.spec,v 1.5 2005/08/18 21:53:40 knight Exp $
+# $Id$
 
 %{!?ircd_uid:%define ircd_uid 79}
 %{!?ircd_gid:%define ircd_gid 79}

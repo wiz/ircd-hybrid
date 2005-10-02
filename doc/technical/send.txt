@@ -259,4 +259,4 @@ send_message_remote()
 
 -- Diane Bruce 
 
-$Id: send.txt,v 1.22 2005/08/02 17:06:27 db Exp $
+$Id$

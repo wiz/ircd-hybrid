@@ -2,7 +2,7 @@
 ; Copyright (C) 2000-2005
 ; David Taylor <davidt@yadt.co.uk>, 2000.
 ; Markus R. <mxr@chatjunkies.org>, 2005. 
-; $Id: ircd-german.lang,v 1.14 2005/09/13 20:12:45 knight Exp $
+; $Id$
 
 RPL_WELCOME:		 :%s 001 %s :Wilkommen im %s Internet Relay Chat Netz, %s!
 RPL_YOURHOST:		 :%s 002 %s :Du bist verbunden mit %s, version %s

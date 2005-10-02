@@ -1,4 +1,4 @@
-# $Id: forcepart,v 1.1 2005/07/24 01:36:26 metalrock Exp $
+# $Id$
 FORCEPART <nickname> <channel>
 
 The FORCEPART command requires two arguments to be given. The first

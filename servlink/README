@@ -1,5 +1,5 @@
 Servlink protocol documentation.
-$Id: README,v 1.4 2001/05/27 19:57:22 davidt Exp $
+$Id$
 --------------
 
 After negotiating an incoming/outgoing server connection, the ircd will

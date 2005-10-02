@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: s_gline.c,v 1.43 2005/06/07 13:18:12 michael Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

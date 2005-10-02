@@ -1,5 +1,5 @@
 mkpasswd.c documentation
-$Id: README.mkpasswd,v 1.6 2005/04/24 12:43:09 michael Exp $
+$Id$
 
 This is documentation for the mkpasswd.c included in ircd-hybrid-7.
 

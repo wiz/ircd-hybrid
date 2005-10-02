@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: send.c,v 7.307 2005/10/02 12:45:07 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

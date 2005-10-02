@@ -1,4 +1,4 @@
-# $Id: join,v 1.5 2005/07/14 06:44:40 metalrock Exp $
+# $Id$
 JOIN <#channel1[,#channel2,#channel3...]> [key]
 
 The JOIN command allows you to enter a public chat area known as

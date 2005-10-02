@@ -20,7 +20,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: hook.c,v 7.33 2005/09/18 20:09:03 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

@@ -1,7 +1,7 @@
 #
 # Makefile.in for ircd/src
 #
-# $Id: Makefile.in,v 7.158 2005/09/03 06:05:38 michael Exp $
+# $Id$
 #
 @SET_MAKE@
 

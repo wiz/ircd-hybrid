@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_opme.c,v 1.56 2005/07/31 05:32:25 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -61,7 +61,7 @@ _moddeinit(void)
   mod_del_cmd(&opme_msgtab);
 }
 
-const char *_version = "$Revision: 1.56 $";
+const char *_version = "$Revision$";
 #endif
 
 static int

@@ -1,4 +1,4 @@
-# $Id: spoof,v 1.2 2005/08/18 15:53:46 knight Exp $
+# $Id$
 SPOOF <user@hostname> <free.form.spoof|-> [flags|- [password]]
 
 The SPOOF command allows you to create free form auth {} spoofs for

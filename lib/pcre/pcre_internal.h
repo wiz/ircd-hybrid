@@ -1,4 +1,4 @@
-/* $Id: pcre_internal.h,v 1.5 2005/09/03 11:39:21 michael Exp $ */
+/* $Id$ */
 
 /*************************************************
 *      Perl-Compatible Regular Expressions       *

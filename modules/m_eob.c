@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_eob.c,v 1.35 2005/04/26 13:36:09 michael Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -54,7 +54,7 @@ _moddeinit(void)
   mod_del_cmd(&eob_msgtab);
 }
 
-const char *_version = "$Revision: 1.35 $";
+const char *_version = "$Revision$";
 #endif
 
 /*

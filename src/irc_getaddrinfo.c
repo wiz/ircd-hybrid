@@ -33,7 +33,7 @@
 #include "irc_getaddrinfo.h"
 #include "ircd_defs.h"
 
-/*  $Id: irc_getaddrinfo.c,v 7.10 2005/08/18 17:21:31 adx Exp $ */
+/*  $Id$ */
 
 static const char in_addrany[]  = { 0, 0, 0, 0 };
 static const char in_loopback[] = { 127, 0, 0, 1 };

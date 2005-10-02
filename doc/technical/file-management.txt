@@ -1,7 +1,7 @@
 Overview of the file management subsystem
 Adrian Chadd <adrian@creative.net.au>
 
-$Id: file-management.txt,v 1.2 2003/10/13 02:15:20 metalrock Exp $
+$Id$
 
 File operations
 ---------------

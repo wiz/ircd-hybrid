@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_rkline.c,v 1.6 2005/09/17 04:39:07 metalrock Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -89,7 +89,7 @@ _moddeinit(void)
   mod_del_cmd(&unrkline_msgtab);
 }
 
-const char *_version = "$Revision: 1.6 $";
+const char *_version = "$Revision$";
 #endif
 
 /* mo_rkline()

@@ -1,5 +1,5 @@
 # Makefile to install help files
-# $Id: Makefile.in,v 1.20 2005/09/17 18:32:57 knight Exp $
+# $Id$
 
 INSTALL=	@INSTALL@
 INSTALL_DATA=	@INSTALL_DATA@

@@ -20,7 +20,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: s_bsd_select.c,v 7.43 2005/09/18 18:08:17 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

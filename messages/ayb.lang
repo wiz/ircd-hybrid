@@ -1,7 +1,7 @@
 ; ircd-hybrid-7 custom message file
 ; Copyright (C) 2000
 ; David Taylor <davidt@yadt.co.uk>, 2000.
-; $Id: ayb.lang,v 1.7 2005/07/31 03:32:11 adx Exp $
+; $Id$
 
 RPL_WELCOME:             :%s 001 %s :ALL YOUR BASE ARE BELONG TO %s, %s!!!
 RPL_CREATED:             :%s 003 %s :Someone set up us the server %s

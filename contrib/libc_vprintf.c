@@ -1,4 +1,4 @@
-/* $Id: libc_vprintf.c,v 1.1 2005/07/02 01:44:07 db Exp $ */
+/* $Id$ */
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>

@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: ircd.c,v 7.369 2005/09/24 09:27:18 michael Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

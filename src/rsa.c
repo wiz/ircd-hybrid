@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: rsa.c,v 7.34 2005/07/26 03:33:05 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

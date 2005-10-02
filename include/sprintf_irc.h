@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: sprintf_irc.h,v 7.10 2003/07/08 16:59:25 joshk Exp $
+ *  $Id$
  */
 
 #ifndef SPRINTF_IRC

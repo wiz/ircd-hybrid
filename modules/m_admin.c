@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_admin.c,v 1.49 2005/09/27 12:43:33 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -48,7 +48,7 @@ struct Message admin_msgtab = {
 
 #ifndef STATIC_MODULES
 static struct Callback *admin_cb;
-const char *_version = "$Revision: 1.49 $";
+const char *_version = "$Revision$";
 
 static void *
 va_admin(va_list args)

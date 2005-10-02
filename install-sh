@@ -1,5 +1,5 @@
 #!/bin/sh
-# $Id: install-sh,v 7.2 2003/05/10 02:20:16 joshk Exp $
+# $Id$
 #
 # install - install a program, script, or datafile
 #

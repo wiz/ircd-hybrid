@@ -25,7 +25,7 @@
  *  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  *  POSSIBILITY OF SUCH DAMAGE.
  *
- *  $Id: m_tb.c,v 1.29 2005/07/31 05:32:36 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -65,7 +65,7 @@ _moddeinit(void)
   delete_capability("TB");
 }
 
-const char *_version = "$Revision: 1.29 $";
+const char *_version = "$Revision$";
 
 #endif /* !STATIC_MODULES */
 

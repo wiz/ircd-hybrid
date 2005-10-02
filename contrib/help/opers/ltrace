@@ -1,4 +1,4 @@
-# $Id: ltrace,v 1.2 2005/10/02 19:14:54 adx Exp $
+# $Id$
 LTRACE [nickname/server mask]
 
 This command is similar to TRACE, but it doesn't display plain users

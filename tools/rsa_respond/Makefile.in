@@ -1,4 +1,4 @@
-# $Id: Makefile.in,v 1.1 2003/06/20 01:43:35 joshk Exp $
+# $Id$
 
 CC = @CC@
 LIBS = @LIBS@

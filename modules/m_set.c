@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_set.c,v 1.65 2005/09/18 22:24:37 adx Exp $
+ *  $Id$
  */
 
 /* rewritten by jdc */
@@ -65,7 +65,7 @@ _moddeinit(void)
   mod_del_cmd(&set_msgtab);
 }
 
-const char *_version = "$Revision: 1.65 $";
+const char *_version = "$Revision$";
 #endif
 
 /* Structure used for the SET table itself */

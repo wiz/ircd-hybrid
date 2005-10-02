@@ -26,7 +26,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *  $Id: irc_getnameinfo.h,v 1.3 2005/07/26 23:44:12 adx Exp $
+ *  $Id$
  */
 
 extern int irc_getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host,

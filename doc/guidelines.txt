@@ -33,4 +33,4 @@ pushed back and pile up.
 
 8.  Don't forget to include a CVS Id.
 
-# $Id: guidelines.txt,v 1.2 2003/10/13 02:15:18 metalrock Exp $
+# $Id$

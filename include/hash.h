@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: hash.h,v 7.38 2005/07/26 13:13:23 michael Exp $
+ *  $Id$
  */
 
 #ifndef INCLUDED_hash_h

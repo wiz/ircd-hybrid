@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: numeric.h,v 7.52 2005/09/12 17:41:02 knight Exp $
+ *  $Id$
  */
 
 #ifndef INCLUDED_numeric_h

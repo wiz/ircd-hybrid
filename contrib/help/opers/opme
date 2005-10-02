@@ -1,4 +1,4 @@
-# $Id: opme,v 1.1 2005/07/24 01:36:26 metalrock Exp $
+# $Id$
 OPME <channel>
 
 OPME will give chanop status to the operator in the given channel.

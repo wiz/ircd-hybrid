@@ -141,4 +141,4 @@ We hope that these goals are obtained.
 
 --
 W. Campbell
-$Id: modeg.txt,v 1.7 2005/07/10 19:46:12 adx Exp $
+$Id$

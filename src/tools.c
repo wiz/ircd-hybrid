@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: tools.c,v 7.33 2005/06/27 00:18:22 db Exp $
+ *  $Id$
  *
  * When you update these functions make sure you update the ones in tools.h
  * as well!!!

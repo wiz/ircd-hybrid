@@ -1,7 +1,7 @@
 /*
  * include/irc_res.h for referencing functions in src/irc_res.c
  *
- * $Id: irc_res.h,v 7.12 2005/07/30 03:35:15 metalrock Exp $
+ * $Id$
  */
 
 #ifndef INCLUDED_irc_res_h

@@ -16,7 +16,7 @@
  *   along with this program; if not, write to the Free Software
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  *
- *   $Id: messages.tab,v 7.129 2005/09/17 10:30:21 michael Exp $
+ *   $Id$
  */
 
 static struct NumericInfo replies[] = {

@@ -1,4 +1,4 @@
-# $Id: svsnick,v 1.1 2005/08/18 15:47:30 knight Exp $
+# $Id$
 SVSNICK <oldnick> <newnick>
 
 The SVSNICK command is designed to change a user's nickname to something else.

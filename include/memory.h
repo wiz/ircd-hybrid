@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: memory.h,v 7.41 2005/08/06 11:01:14 michael Exp $
+ *  $Id$
  */
 
 #ifndef _I_MEMORY_H

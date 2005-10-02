@@ -1,4 +1,4 @@
-# $Id: ojoin,v 1.1 2005/07/24 01:36:26 metalrock Exp $
+# $Id$
 OJOIN [flags]<channel>
 
 The OJOIN command requires only one argument with optional status flags.

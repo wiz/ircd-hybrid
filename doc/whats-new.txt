@@ -79,4 +79,4 @@ ircd features
 - Testmask feature allows you to count number of local and remote clients for
   a given hostmask.
 
-$Id: whats-new.txt,v 7.50 2005/08/20 15:00:54 knight Exp $
+$Id$

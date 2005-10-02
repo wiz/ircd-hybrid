@@ -1,7 +1,7 @@
 #
 # Makefile.in for servlink/src
 #
-# $Id: Makefile.in,v 1.25 2005/09/04 08:41:26 michael Exp $
+# $Id$
 #
 
 CC              = @CC@

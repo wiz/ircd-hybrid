@@ -20,7 +20,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: s_bsd_kqueue.c,v 1.45 2005/09/29 06:35:41 metalrock Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

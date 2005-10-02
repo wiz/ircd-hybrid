@@ -1,4 +1,4 @@
-# $Id: rxline,v 1.6 2005/09/03 15:23:37 michael Exp $
+# $Id$
 RXLINE [time] <mask> [ON <server>] :[reason]
 
 [time] if present, gives number of minutes for temporary RXLINE

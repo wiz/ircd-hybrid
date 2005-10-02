@@ -46,7 +46,7 @@
 #include "irc_getnameinfo.h"
 #include "irc_string.h"
 
-/*  $Id: irc_getnameinfo.c,v 7.12 2003/12/20 23:01:57 metalrock Exp $ */
+/*  $Id$ */
 
 static const struct afd {
   int a_af;

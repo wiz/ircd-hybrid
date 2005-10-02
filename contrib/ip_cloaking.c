@@ -31,7 +31,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
  *
- * $Id: ip_cloaking.c,v 1.13 2005/10/01 14:29:47 michael Exp $
+ * $Id$
  */
 
 /*
@@ -73,7 +73,7 @@ static int vhost_ipv6_err;
 static dlink_node *prev_enter_umode;
 static dlink_node *prev_umode;
 
-const char *_version = "$Revision: 1.13 $";
+const char *_version = "$Revision$";
 
 static void *reset_ipv6err_flag(va_list);
 static void *h_set_user_mode(va_list);

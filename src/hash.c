@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: hash.c,v 7.109 2005/09/29 00:13:34 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: packet.h,v 7.19 2005/08/20 23:48:42 adx Exp $
+ *  $Id$
  */
 
 #ifndef INCLUDED_packet_h

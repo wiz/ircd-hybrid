@@ -1,4 +1,4 @@
-/* $Id: pcre_fullinfo.c,v 1.1 2005/09/03 06:05:37 michael Exp $ */
+/* $Id$ */
 
 /*************************************************
 *      Perl-Compatible Regular Expressions       *

@@ -16,7 +16,7 @@
  *   along with this program; if not, write to the Free Software
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  *
- *   $Id: m_operspy.c,v 1.67 2005/10/01 14:29:47 michael Exp $
+ *   $Id$
  */
 
 /***  PLEASE READ ME  ***/
@@ -140,7 +140,7 @@ _moddeinit(void)
 {
   mod_del_cmd(&operspy_msgtab);
 }
-const char *_version = "$Revision: 1.67 $";
+const char *_version = "$Revision$";
 #endif
 
 #ifdef OPERSPY_LOG

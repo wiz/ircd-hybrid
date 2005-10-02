@@ -15,7 +15,7 @@
  *   along with this program; if not, write to the Free Software
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  *
- *   $Id: control.c,v 1.8 2005/05/25 13:59:12 michael Exp $
+ *   $Id$
  */
 
 #include "stdinc.h"

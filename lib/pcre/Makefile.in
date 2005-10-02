@@ -1,4 +1,4 @@
-# $Id: Makefile.in,v 1.6 2005/09/05 11:19:44 db Exp $
+# $Id$
 
 CC		= @CC@
 AR		= @AR@

@@ -1,4 +1,4 @@
-# $Id: classlist,v 1.1 2005/08/18 13:23:48 knight Exp $
+# $Id$
 CLASSLIST <class>
 
 The CLASSLIST command will show complete totals of a class you wish to see.

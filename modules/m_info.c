@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_info.c,v 1.108 2005/09/27 21:49:31 knight Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -56,7 +56,7 @@ struct Message info_msgtab = {
 };
 
 #ifndef STATIC_MODULES
-const char *_version = "$Revision: 1.108 $";
+const char *_version = "$Revision$";
 static struct Callback *info_cb;
 
 static void *

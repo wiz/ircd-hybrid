@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: whowas.h,v 7.16 2005/07/26 11:48:02 michael Exp $
+ *  $Id$
  */
 
 #ifndef INCLUDED_whowas_h

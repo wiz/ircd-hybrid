@@ -1,4 +1,4 @@
-$Id: rfc2812.txt,v 7.1 2005/08/20 15:00:55 knight Exp $
+$Id$
 
 Network Working Group                                            C. Kalt
 Request for Comments: 2812                                    April 2000

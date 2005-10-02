@@ -32,4 +32,4 @@ SET <option> <value>
   SPLITNUM    - Sets the minimum amount of servers needed to
                 deactivate automatic splitmode.
 
-# $Id: set,v 1.5 2005/07/14 06:44:40 metalrock Exp $
+# $Id$

@@ -1,4 +1,4 @@
-# $Id: ctrace,v 1.2 2005/10/02 19:14:54 adx Exp $
+# $Id$
 CTRACE <class>
 
 The CTRACE command will do a trace of users depending on class. Similar

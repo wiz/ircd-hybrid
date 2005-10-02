@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: ircd_signal.c,v 7.18 2005/09/18 14:25:13 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

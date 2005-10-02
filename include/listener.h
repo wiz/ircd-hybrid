@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: listener.h,v 7.18 2005/07/26 03:32:57 adx Exp $
+ *  $Id$
  */
 
 #ifndef INCLUDED_listener_h

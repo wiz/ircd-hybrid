@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: parse.c,v 7.203 2005/08/29 21:02:50 db Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

@@ -1,4 +1,4 @@
-/* $Id: y.tab.c,v 7.87 2005/10/02 14:57:16 michael Exp $ */
+/* $Id$ */
 /* A Bison parser, made by GNU Bison 2.0.  */
 
 /* Skeleton parser for Yacc-like parsing with Bison,

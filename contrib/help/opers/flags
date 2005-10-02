@@ -1,4 +1,4 @@
-# $Id: flags,v 1.1 2005/08/18 15:47:30 knight Exp $
+# $Id$
 FLAGS [-|+ flag]
 
 The FLAGS command is designed to enable or disable user mode flags in plain english.

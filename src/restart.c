@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: restart.c,v 7.32 2005/09/19 06:15:21 metalrock Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

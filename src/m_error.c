@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_error.c,v 7.36 2005/08/29 18:01:50 db Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

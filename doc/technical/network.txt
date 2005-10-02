@@ -1,7 +1,7 @@
 Overview of the network subsystem
 Adrian Chadd <adrian@creative.net.au>
 
-$Id: network.txt,v 1.7 2003/10/13 02:15:20 metalrock Exp $
+$Id$
 
 This document is an overview of the new and hopefully improved network
 subsystem.

@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: spy_motd_notice.c,v 1.14 2005/09/09 17:37:13 adx Exp $
+ *  $Id$
  */
 #include "stdinc.h"
 #ifndef STATIC_MODULES
@@ -49,7 +49,7 @@ _moddeinit(void)
     uninstall_hook(motd_cb, show_motd);
 }
 
-const char *_version = "$Revision: 1.14 $";
+const char *_version = "$Revision$";
 
 static void *
 show_motd(va_list args)

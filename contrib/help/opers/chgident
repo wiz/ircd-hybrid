@@ -1,4 +1,4 @@
-# $Id: chgident,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+# $Id$
 CHGIDENT [nickname] <ident>
 
 The CHGIDENT command takes two arguments. The first argument is optional and

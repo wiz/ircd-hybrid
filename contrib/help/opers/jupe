@@ -1,4 +1,4 @@
-# $Id: jupe,v 1.1 2005/07/24 01:36:26 metalrock Exp $
+# $Id$
 JUPE [servername] :[reason]
 
 The JUPE command takes two arguments. The first argument is the server

@@ -1,4 +1,4 @@
-# $Id: delspoof,v 1.1 2005/08/18 13:23:48 knight Exp $
+# $Id$
 DELSPOOF <user@hostname> 
 
 The DELSPOOF command will remove a auth {} block for any user you request.

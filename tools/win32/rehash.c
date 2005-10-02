@@ -1,4 +1,4 @@
-/* $Id: rehash.c,v 1.1 2005/09/19 10:36:44 adx Exp $ */
+/* $Id$ */
 
 #include <windows.h>
 #include "setup.h"

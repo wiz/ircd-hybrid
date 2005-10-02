@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_lljoin.c,v 1.70 2005/08/30 18:28:39 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -62,7 +62,7 @@ _moddeinit(void)
   mod_del_cmd(&lljoin_msgtab);
 }
 
-const char *_version = "$Revision: 1.70 $";
+const char *_version = "$Revision$";
 #endif
 /*
  * m_lljoin

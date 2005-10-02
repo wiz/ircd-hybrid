@@ -1,4 +1,4 @@
-# $Id: forcejoin,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+# $Id$
 FORCEJOIN <nickname> <channel>
 
 The FORCEJOIN command requires two arguments to be given. The first

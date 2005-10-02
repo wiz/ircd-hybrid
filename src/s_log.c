@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: s_log.c,v 7.78 2005/09/26 03:10:16 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

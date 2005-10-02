@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: tools.h,v 1.28 2005/06/27 00:32:53 metalrock Exp $
+ *  $Id$
  */
 
 #ifndef __TOOLS_H__

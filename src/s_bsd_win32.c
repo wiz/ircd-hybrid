@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: s_bsd_win32.c,v 7.20 2005/09/18 20:49:50 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

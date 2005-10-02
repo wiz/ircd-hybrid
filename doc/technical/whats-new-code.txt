@@ -1,7 +1,7 @@
 
 Whats changed in the codebase
 
-# $Id: whats-new-code.txt,v 1.4 2003/05/04 16:59:04 adx Exp $
+# $Id$
 
 First, please note one thing - a *LOT* has changed in hybrid-7.
 

@@ -1,4 +1,4 @@
-# $Id: Makefile.in,v 7.26 2005/06/12 00:02:42 lusky Exp $
+# $Id$
 INSTALL		= @INSTALL@
 INSTALL_DATA	= @INSTALL_DATA@
 RM		= @RM@

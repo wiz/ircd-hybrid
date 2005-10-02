@@ -1,4 +1,4 @@
-# $Id: stats,v 1.4 2005/07/20 01:03:10 metalrock Exp $
+# $Id$
 STATS <letter> [server|nick]
 
 Queries server [server] (or your own server if no

@@ -1,4 +1,4 @@
-# $Id: Makefile.in,v 1.23 2005/08/01 23:01:14 adx Exp $
+# $Id$
 #
 RM            = @RM@
 MV            = @MV@

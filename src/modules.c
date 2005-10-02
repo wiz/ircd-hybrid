@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: modules.c,v 7.178 2005/09/18 23:07:29 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

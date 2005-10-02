@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_list.c,v 1.67 2005/07/11 19:40:27 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -67,7 +67,7 @@ _moddeinit(void)
   delete_isupport("SAFELIST");
 }
 
-const char *_version = "$Revision: 1.67 $";
+const char *_version = "$Revision$";
 #endif
 
 static int

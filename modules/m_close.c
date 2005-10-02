@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_close.c,v 1.29 2005/07/30 20:44:14 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -54,7 +54,7 @@ _moddeinit(void)
   mod_del_cmd(&close_msgtab);
 }
 
-const char *_version = "$Revision: 1.29 $";
+const char *_version = "$Revision$";
 #endif
 
 /*

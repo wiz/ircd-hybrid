@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: s_conf.c,v 7.611 2005/09/29 16:02:49 adx Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"

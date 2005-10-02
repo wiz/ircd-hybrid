@@ -1,7 +1,7 @@
 #
 # Makefile.in for ircd/modules
 #
-# $Id: Makefile.in,v 1.110 2005/09/18 23:07:29 adx Exp $
+# $Id$
 #
 CC		= @CC@
 AR		= @AR@

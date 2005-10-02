@@ -1,4 +1,4 @@
-$Id: ts6.txt,v 7.1 2003/10/13 02:15:20 metalrock Exp $
+$Id$
 
 TS6 Proposal (v7)
 Written by Lee H <lee@leeh.co.uk>

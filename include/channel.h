@@ -21,7 +21,7 @@
 
 /*! \file channel.h
  * \brief Responsible for managing channels, members, bans and topics
- * \version $Id: channel.h,v 7.166 2005/09/18 10:56:33 michael Exp $
+ * \version $Id$
  */
 
 #ifndef INCLUDED_channel_h

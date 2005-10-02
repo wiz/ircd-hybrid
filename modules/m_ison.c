@@ -19,7 +19,7 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
  *  USA
  *
- *  $Id: m_ison.c,v 1.39 2005/08/17 16:02:51 michael Exp $
+ *  $Id$
  */
 
 #include "stdinc.h"
@@ -57,7 +57,7 @@ _moddeinit(void)
 {
   mod_del_cmd(&ison_msgtab);
 }
-const char *_version = "$Revision: 1.39 $";
+const char *_version = "$Revision$";
 #endif
 
 
