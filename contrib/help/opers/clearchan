@@ -1,0 +1,8 @@
+# $Id: clearchan,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+CLEARCHAN <channel>
+
+The CLEARCHAN command will essentially take over a channel by purging all
+the modes and user's privileges (e.g. voice, half-op, chanop), then
+kicking all the users out.
+
+This command requires that you PART the channel first.

@@ -1,0 +1,7 @@
+# $Id: chghost,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+CHGHOST [nickname] <hostname>
+
+The CHGHOST command takes two arguments. The first argument is optional and
+can be the nickname of a user you wish to change the host of. If no
+argument for the nickname is supplied, then it will change your host instead.
+The second argument is the hostname you wish to use.

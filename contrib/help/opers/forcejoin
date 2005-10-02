@@ -1,0 +1,9 @@
+# $Id: forcejoin,v 1.1 2005/07/24 01:36:25 metalrock Exp $
+FORCEJOIN <nickname> <channel>
+
+The FORCEJOIN command requires two arguments to be given. The first
+argument is the nickname of the user you wish to execute the command
+on, and the second argument is the destination channel they are to join.
+
+The command can also be used to force join a user to a channel that does
+not exist.
