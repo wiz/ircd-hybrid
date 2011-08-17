@@ -961,9 +961,9 @@ exit_client(struct Client *source_p, struct Client *from, const char *comment)
     if (IsServer(source_p) || IsConnecting(source_p) ||
         IsHandshake(source_p))
     {
-      if ((m = dlinkFindDelete(&serv_list, source_p)) != NULL)
+      if (dlinkFind(&serv_list, source_p))
       {
-        free_dlink_node(m);
+        dlinkDelete(&source_p->localClient->lclient_node, &serv_list);
         unset_chcap_usage_counts(source_p);
       }
 
