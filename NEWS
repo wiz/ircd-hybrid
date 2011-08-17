@@ -1,3 +1,10 @@
+-- ircd-hybrid-7.3.1 Release Notes
+o) Fixed ERR_ACCEPTEXIST numeric string. Now gives proper
+   nick!user@host mask output
+o) Update RPL_ISUPPORT. CHANMODES now reflects new +OS channelmodes
+o) Fixed random core triggered by exiting servers
+
+
 -- ircd-hybrid-7.3.0 Release Notes
 o) Added Bulgarian language file provided by Borislav Borisov
 o) Server hostmasking has been removed due to TS6 requirements
