@@ -3,6 +3,8 @@ o) Fixed ERR_ACCEPTEXIST numeric string. Now gives proper
    nick!user@host mask output
 o) Update RPL_ISUPPORT. CHANMODES now reflects new +OS channelmodes
 o) Fixed random core triggered by exiting servers
+o) Fixed invalid user and invisible count in /lusers which sometimes can
+   occur if a server sends redundant usermodes within a NICK message
 
 
 -- ircd-hybrid-7.3.0 Release Notes
