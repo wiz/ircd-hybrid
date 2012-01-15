@@ -418,8 +418,8 @@ m_cap(struct Client *cptr, struct Client *sptr, int parc, char *parv[])
                       sizeof(cmdlist) / sizeof(struct subcmd),
                       sizeof(struct subcmd), (bqcmp)subcmd_search)))
   {
-    sendto_one(sptr, form_str(ERR_INVALIDCAPCMD),
-               me.name, sptr->name, subcmd);
+    sendto_one(sptr, form_str(ERR_INVALIDCAPCMD), me.name,
+               sptr->name[0] ? sptr->name : "*", subcmd);
     return;
   }
 
