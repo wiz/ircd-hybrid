@@ -251,6 +251,7 @@ struct CidrItem
 #define CONF_FLAGS_RESTRICTED           0x00002000
 #define CONF_FLAGS_CAN_FLOOD            0x00100000
 #define CONF_FLAGS_NEED_PASSWORD        0x00200000
+#define CONF_FLAGS_NEED_TLS             0x02000000
 /* server flags */
 #define CONF_FLAGS_ALLOW_AUTO_CONN      0x00004000
 #define CONF_FLAGS_LAZY_LINK            0x00008000
@@ -571,6 +572,7 @@ extern int match_conf_password(const char *, const struct AccessItem *);
 #define TOO_MANY          (-3)
 #define BANNED_CLIENT     (-4)
 #define TOO_FAST          (-5)
+#define NEED_TLS          (-6)
 
 #define CLEANUP_TKLINES_TIME 60
 

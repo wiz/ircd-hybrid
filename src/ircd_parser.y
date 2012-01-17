@@ -248,6 +248,7 @@ unhook_hub_leaf_confs(void)
 %token  MODULES
 %token  NAME
 %token  NEED_PASSWORD
+%token  T_NEED_TLS
 %token  NETWORK_DESC
 %token  NETWORK_NAME
 %token  NICK
@@ -1848,6 +1849,13 @@ auth_flags_item_atom: SPOOF_NOTICE
   {
     if (not_atom) yy_aconf->flags &= ~CONF_FLAGS_NEED_PASSWORD;
     else yy_aconf->flags |= CONF_FLAGS_NEED_PASSWORD;
+  }
+} | T_NEED_TLS
+{
+  if (conf_parser_ctx.pass == 2)
+  {
+    if (not_atom) yy_aconf->flags &= ~CONF_FLAGS_NEED_TLS;
+    else yy_aconf->flags |= CONF_FLAGS_NEED_TLS;
   }
 };
 

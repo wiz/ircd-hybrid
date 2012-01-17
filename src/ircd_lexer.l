@@ -244,6 +244,7 @@ min_nonwildcard { return MIN_NONWILDCARD; }
 min_nonwildcard_simple	{ return MIN_NONWILDCARD_SIMPLE; }
 name		{ return NAME; }
 need_password   { return NEED_PASSWORD; }
+need_tls        { return T_NEED_TLS; }
 network_desc    { return NETWORK_DESC; }
 network_name    { return NETWORK_NAME; }
 nick		{ return NICK; }

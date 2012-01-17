@@ -797,6 +797,7 @@ report_confitem_types(struct Client *source_p, ConfType type, int temp)
  * 		  I_LINE_FULL       (-3) = I-line is full
  *		  TOO_MANY          (-4) = Too many connections from hostname
  * 		  BANNED_CLIENT     (-5) = K-lined
+ *                NEED_TLS          (-6) = No TLS/SSL available
  * side effects - Ordinary client access check.
  *		  Look for conf lines which have the same
  * 		  status as the flags passed.
@@ -884,6 +885,11 @@ check_client(va_list args)
      ++ServerStats.is_ref;
      break;
 
+    case NEED_TLS:
+      ++ServerStats.is_ref;
+      exit_client(source_p, &me, "A TLS/SSL connection is required to use this server");
+      break;
+
    case 0:
    default:
      break;
@@ -934,6 +940,11 @@ verify_access(struct Client *client_p, const char *username)
     if (IsConfClient(aconf) && !rkconf)
     {
       conf = unmap_conf_item(aconf);
+
+      if (aconf->flags & CONF_FLAGS_NEED_TLS)
+        if (!client_p->localClient->fd.ssl)
+          return NEED_TLS;
+
 
       if (IsConfRedir(aconf))
       {
