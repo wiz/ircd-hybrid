@@ -88,8 +88,8 @@ mo_ctrace(struct Client *client_p, struct Client *source_p,
 static void
 do_ctrace(struct Client *source_p, int parc, char *parv[])
 {
-  char *class_looking_for;
-  const char *class_name = parv[1];
+  char *class_looking_for = parv[1];
+  const char *class_name = NULL;
   dlink_node *ptr;
 
   sendto_realops_flags(UMODE_SPY, L_ALL,
