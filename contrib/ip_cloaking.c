@@ -264,7 +264,7 @@ crc32(const char *s, unsigned int len)
  * side effects - not IPv6 friendly
  */
 static int
-str2arr (char **pparv, char *string, char *delim)
+str2arr(char **pparv, char *string, const char *delim)
 {
   char *tok;
   int pparc = 0;
