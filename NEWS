@@ -1,3 +1,11 @@
+-- ircd-hybrid-7.3.2 Release Notes
+o) Added new m_webirc.c to contrib/
+o) Added need_tls to auth::flags. Rejects clients that are not connected
+   via TLS/SSL
+o) Fixed compile warning with gcc 4.6
+o) Minor fixes to m_cap module
+
+
 -- ircd-hybrid-7.3.1 Release Notes
 o) Fixed ERR_ACCEPTEXIST numeric string. Now gives proper
    nick!user@host mask output
