@@ -942,9 +942,8 @@ oper_entry: OPERATOR
 {
   if (conf_parser_ctx.pass == 2)
   {
-    struct CollectItem *yy_tmp;
-    dlink_node *ptr;
-    dlink_node *next_ptr;
+    struct CollectItem *yy_tmp = NULL;
+    dlink_node *ptr = NULL, *next_ptr = NULL;
 
     conf_add_class_to_conf(yy_conf, class_name);
 
@@ -959,7 +958,7 @@ oper_entry: OPERATOR
       yy_tmp = ptr->data;
 
       new_conf = make_conf_item(OPER_TYPE);
-      new_aconf = (struct AccessItem *)map_to_conf(new_conf);
+      new_aconf = map_to_conf(new_conf);
 
       new_aconf->flags = yy_aconf->flags;
 
@@ -973,6 +972,9 @@ oper_entry: OPERATOR
 	DupString(new_aconf->host, yy_tmp->host);
       else
 	DupString(new_aconf->host, "*");
+
+      new_aconf->type = parse_netmask(new_aconf->host, &new_aconf->ipnum,
+                                     &new_aconf->bits);
       conf_add_class_to_conf(new_conf, class_name);
       if (yy_aconf->passwd != NULL)
         DupString(new_aconf->passwd, yy_aconf->passwd);
@@ -1070,6 +1072,9 @@ oper_user: USER '=' QSTRING ';'
     {
       DupString(yy_aconf->user, userbuf);
       DupString(yy_aconf->host, hostbuf);
+
+      yy_aconf->type = parse_netmask(yy_aconf->host, &yy_aconf->ipnum,
+                                    &yy_aconf->bits);
     }
     else
     {
@@ -1386,7 +1391,7 @@ class_entry: CLASS
       delete_conf_item(yy_conf);
     else
     {
-      cconf = find_exact_name_conf(CLASS_TYPE, yy_class_name, NULL, NULL);
+      cconf = find_exact_name_conf(CLASS_TYPE, NULL, yy_class_name, NULL, NULL);
 
       if (cconf != NULL)		/* The class existed already */
       {

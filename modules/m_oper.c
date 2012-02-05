@@ -40,7 +40,7 @@
 #include "modules.h"
 #include "packet.h"
 
-static struct ConfItem *find_password_conf(const char *, struct Client *);
+static struct ConfItem *find_password_conf(const char *, const struct Client *);
 static void failed_oper_notice(struct Client *, const char *, const char *);
 static void m_oper(struct Client *, struct Client *, int, char *[]);
 static void mo_oper(struct Client *, struct Client *, int, char *[]);
@@ -93,7 +93,7 @@ m_oper(struct Client *client_p, struct Client *source_p,
   if ((conf = find_password_conf(name, source_p)) == NULL)
   {
     sendto_one(source_p, form_str(ERR_NOOPERHOST), me.name, source_p->name);
-    conf = find_exact_name_conf(OPER_TYPE, name, NULL, NULL);
+    conf = find_exact_name_conf(OPER_TYPE, NULL, name, NULL, NULL);
     failed_oper_notice(source_p, name, (conf != NULL) ?
                        "host mismatch" : "no oper {} block");
     log_oper_action(LOG_FAILED_OPER_TYPE, source_p, "%s\n", name);
@@ -149,25 +149,9 @@ mo_oper(struct Client *client_p, struct Client *source_p,
  * side effects	- NONE
  */
 static struct ConfItem *
-find_password_conf(const char *name, struct Client *source_p)
+find_password_conf(const char *name, const struct Client *source_p)
 {
-  struct ConfItem *conf = NULL;
-
-  if ((conf = find_exact_name_conf(OPER_TYPE,
-				   name, source_p->username, source_p->host
-				   )) != NULL)
-  {
-    return(conf);
-  }
-
-  if ((conf = find_exact_name_conf(OPER_TYPE,
-				   name, source_p->username,
-				   source_p->sockhost)) != NULL)
-  {
-    return(conf);
-  }
-
-  return(NULL);
+  return find_exact_name_conf(OPER_TYPE, source_p, name, NULL, NULL);
 }
 
 /* failed_oper_notice()

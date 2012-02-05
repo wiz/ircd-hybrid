@@ -4,6 +4,7 @@ o) Added need_tls to auth::flags. Rejects clients that are not connected
    via TLS/SSL
 o) Fixed compile warning with gcc 4.6
 o) Minor fixes to m_cap module
+o) Added CIDR support for operator{} blocks
 
 
 -- ircd-hybrid-7.3.1 Release Notes
