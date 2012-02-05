@@ -104,9 +104,6 @@ m_challenge(struct Client *client_p, struct Client *source_p,
     conf = find_exact_name_conf(OPER_TYPE, source_p,
                                 source_p->localClient->auth_oper, NULL, NULL);
     if (conf == NULL)
-      conf = find_exact_name_conf(OPER_TYPE, source_p,
-                                  source_p->localClient->auth_oper, NULL, NULL);
-    if (conf == NULL)
     {
       sendto_one (source_p, form_str(ERR_NOOPERHOST), me.name, parv[0]);
       log_oper_action(LOG_FAILED_OPER_TYPE, source_p, "%s\n",
