@@ -62,7 +62,7 @@ const char *_version = "$Revision$";
  *      parv[0] = sender prefix
  *      parv[*] = parameters
  */
-void
+static void
 m_error(struct Client *client_p, struct Client *source_p, 
         int parc, char *parv[])
 {
@@ -92,7 +92,7 @@ m_error(struct Client *client_p, struct Client *source_p,
     exit_client(source_p, source_p, "ERROR");
 }
 
-void
+static void
 ms_error(struct Client *client_p, struct Client *source_p,
          int parc, char *parv[])
 {
